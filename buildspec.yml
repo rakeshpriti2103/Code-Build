@@ -1,9 +1,9 @@
-version: "2.0"
+version: 0.2
 
 phases: 
     install:
         runtime-versions:
-            nodejs: 10
+            nodejs: latest
         commands:
             - echo "installing something"
     pre_build:
